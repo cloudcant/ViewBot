@@ -11,9 +11,9 @@ sys.stderr = DevNull()
 
 t = 0
 threadcount = 0
-views = int("1000000")
-threads = int("1000")
-sendurl = ("https://camo.githubusercontent.com/6598833b36ca89a5ea60b68e7f3d6a1ca827cdf60e330963d876b46f5005cb72/68747470733a2f2f677076632e6172747572696f2e6465762f73796e74686574696363")
+views = int(input("> input Input View Count\n> "))
+threads = int(input("> input Thread Count\n> "))
+sendurl = input("> input Target WebPage\n> ")
 
 def main():
   reqcount = round(views/threads)
